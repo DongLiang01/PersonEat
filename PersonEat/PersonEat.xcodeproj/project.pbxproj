@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0432790729DE621800A181CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432790629DE621800A181CC /* AppDelegate.m */; };
+		0432790A29DE621800A181CC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432790929DE621800A181CC /* SceneDelegate.m */; };
+		0432790D29DE621800A181CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432790C29DE621800A181CC /* ViewController.m */; };
+		0432791029DE621800A181CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432790E29DE621800A181CC /* Main.storyboard */; };
+		0432791229DE621A00A181CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0432791129DE621A00A181CC /* Assets.xcassets */; };
+		0432791529DE621A00A181CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432791329DE621A00A181CC /* LaunchScreen.storyboard */; };
+		0432791829DE621A00A181CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432791729DE621A00A181CC /* main.m */; };
+		0432792229DE621B00A181CC /* PersonEatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432792129DE621B00A181CC /* PersonEatTests.m */; };
+		0432792C29DE621B00A181CC /* PersonEatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432792B29DE621B00A181CC /* PersonEatUITests.m */; };
+		0432792E29DE621B00A181CC /* PersonEatUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0432792D29DE621B00A181CC /* PersonEatUITestsLaunchTests.m */; };
+		EA0F2C66592CBC852AF1FCF0 /* libPods-PersonEat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD2C703840D7A5CC51F545 /* libPods-PersonEat.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0432791E29DE621B00A181CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043278FA29DE621800A181CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0432790129DE621800A181CC;
+			remoteInfo = PersonEat;
+		};
+		0432792829DE621B00A181CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043278FA29DE621800A181CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0432790129DE621800A181CC;
+			remoteInfo = PersonEat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0432790229DE621800A181CC /* PersonEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0432790529DE621800A181CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0432790629DE621800A181CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0432790829DE621800A181CC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0432790929DE621800A181CC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0432790B29DE621800A181CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0432790C29DE621800A181CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0432790F29DE621800A181CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0432791129DE621A00A181CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0432791429DE621A00A181CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0432791629DE621A00A181CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0432791729DE621A00A181CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0432791D29DE621B00A181CC /* PersonEatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonEatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0432792129DE621B00A181CC /* PersonEatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonEatTests.m; sourceTree = "<group>"; };
+		0432792729DE621B00A181CC /* PersonEatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonEatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0432792B29DE621B00A181CC /* PersonEatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonEatUITests.m; sourceTree = "<group>"; };
+		0432792D29DE621B00A181CC /* PersonEatUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonEatUITestsLaunchTests.m; sourceTree = "<group>"; };
+		2022E0DEF6C7DD3A5C8CC700 /* Pods-PersonEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonEat.release.xcconfig"; path = "Target Support Files/Pods-PersonEat/Pods-PersonEat.release.xcconfig"; sourceTree = "<group>"; };
+		28FD2C703840D7A5CC51F545 /* libPods-PersonEat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PersonEat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE6008921FA527DBAAEF750 /* Pods-PersonEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonEat.debug.xcconfig"; path = "Target Support Files/Pods-PersonEat/Pods-PersonEat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043278FF29DE621800A181CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0F2C66592CBC852AF1FCF0 /* libPods-PersonEat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0432791A29DE621B00A181CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0432792429DE621B00A181CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043278F929DE621800A181CC = {
+			isa = PBXGroup;
+			children = (
+				0432790429DE621800A181CC /* PersonEat */,
+				0432792029DE621B00A181CC /* PersonEatTests */,
+				0432792A29DE621B00A181CC /* PersonEatUITests */,
+				0432790329DE621800A181CC /* Products */,
+				BC74C25C5F52B93625B6C6B3 /* Pods */,
+				E9C206273628E8BCC9C7AF9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0432790329DE621800A181CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0432790229DE621800A181CC /* PersonEat.app */,
+				0432791D29DE621B00A181CC /* PersonEatTests.xctest */,
+				0432792729DE621B00A181CC /* PersonEatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0432790429DE621800A181CC /* PersonEat */ = {
+			isa = PBXGroup;
+			children = (
+				0432790529DE621800A181CC /* AppDelegate.h */,
+				0432790629DE621800A181CC /* AppDelegate.m */,
+				0432790829DE621800A181CC /* SceneDelegate.h */,
+				0432790929DE621800A181CC /* SceneDelegate.m */,
+				0432790B29DE621800A181CC /* ViewController.h */,
+				0432790C29DE621800A181CC /* ViewController.m */,
+				0432790E29DE621800A181CC /* Main.storyboard */,
+				0432791129DE621A00A181CC /* Assets.xcassets */,
+				0432791329DE621A00A181CC /* LaunchScreen.storyboard */,
+				0432791629DE621A00A181CC /* Info.plist */,
+				0432791729DE621A00A181CC /* main.m */,
+			);
+			path = PersonEat;
+			sourceTree = "<group>";
+		};
+		0432792029DE621B00A181CC /* PersonEatTests */ = {
+			isa = PBXGroup;
+			children = (
+				0432792129DE621B00A181CC /* PersonEatTests.m */,
+			);
+			path = PersonEatTests;
+			sourceTree = "<group>";
+		};
+		0432792A29DE621B00A181CC /* PersonEatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0432792B29DE621B00A181CC /* PersonEatUITests.m */,
+				0432792D29DE621B00A181CC /* PersonEatUITestsLaunchTests.m */,
+			);
+			path = PersonEatUITests;
+			sourceTree = "<group>";
+		};
+		BC74C25C5F52B93625B6C6B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6008921FA527DBAAEF750 /* Pods-PersonEat.debug.xcconfig */,
+				2022E0DEF6C7DD3A5C8CC700 /* Pods-PersonEat.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9C206273628E8BCC9C7AF9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28FD2C703840D7A5CC51F545 /* libPods-PersonEat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0432790129DE621800A181CC /* PersonEat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0432793129DE621B00A181CC /* Build configuration list for PBXNativeTarget "PersonEat" */;
+			buildPhases = (
+				769BC5925A8414D1A9922163 /* [CP] Check Pods Manifest.lock */,
+				043278FE29DE621800A181CC /* Sources */,
+				043278FF29DE621800A181CC /* Frameworks */,
+				0432790029DE621800A181CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonEat;
+			productName = PersonEat;
+			productReference = 0432790229DE621800A181CC /* PersonEat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0432791C29DE621B00A181CC /* PersonEatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0432793429DE621B00A181CC /* Build configuration list for PBXNativeTarget "PersonEatTests" */;
+			buildPhases = (
+				0432791929DE621B00A181CC /* Sources */,
+				0432791A29DE621B00A181CC /* Frameworks */,
+				0432791B29DE621B00A181CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0432791F29DE621B00A181CC /* PBXTargetDependency */,
+			);
+			name = PersonEatTests;
+			productName = PersonEatTests;
+			productReference = 0432791D29DE621B00A181CC /* PersonEatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0432792629DE621B00A181CC /* PersonEatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0432793729DE621B00A181CC /* Build configuration list for PBXNativeTarget "PersonEatUITests" */;
+			buildPhases = (
+				0432792329DE621B00A181CC /* Sources */,
+				0432792429DE621B00A181CC /* Frameworks */,
+				0432792529DE621B00A181CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0432792929DE621B00A181CC /* PBXTargetDependency */,
+			);
+			name = PersonEatUITests;
+			productName = PersonEatUITests;
+			productReference = 0432792729DE621B00A181CC /* PersonEatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043278FA29DE621800A181CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0432790129DE621800A181CC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0432791C29DE621B00A181CC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0432790129DE621800A181CC;
+					};
+					0432792629DE621B00A181CC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0432790129DE621800A181CC;
+					};
+				};
+			};
+			buildConfigurationList = 043278FD29DE621800A181CC /* Build configuration list for PBXProject "PersonEat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043278F929DE621800A181CC;
+			productRefGroup = 0432790329DE621800A181CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0432790129DE621800A181CC /* PersonEat */,
+				0432791C29DE621B00A181CC /* PersonEatTests */,
+				0432792629DE621B00A181CC /* PersonEatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0432790029DE621800A181CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0432791529DE621A00A181CC /* LaunchScreen.storyboard in Resources */,
+				0432791229DE621A00A181CC /* Assets.xcassets in Resources */,
+				0432791029DE621800A181CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0432791B29DE621B00A181CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0432792529DE621B00A181CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		769BC5925A8414D1A9922163 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PersonEat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043278FE29DE621800A181CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0432790D29DE621800A181CC /* ViewController.m in Sources */,
+				0432790729DE621800A181CC /* AppDelegate.m in Sources */,
+				0432791829DE621A00A181CC /* main.m in Sources */,
+				0432790A29DE621800A181CC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0432791929DE621B00A181CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0432792229DE621B00A181CC /* PersonEatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0432792329DE621B00A181CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0432792E29DE621B00A181CC /* PersonEatUITestsLaunchTests.m in Sources */,
+				0432792C29DE621B00A181CC /* PersonEatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0432791F29DE621B00A181CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0432790129DE621800A181CC /* PersonEat */;
+			targetProxy = 0432791E29DE621B00A181CC /* PBXContainerItemProxy */;
+		};
+		0432792929DE621B00A181CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0432790129DE621800A181CC /* PersonEat */;
+			targetProxy = 0432792829DE621B00A181CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0432790E29DE621800A181CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0432790F29DE621800A181CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0432791329DE621A00A181CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0432791429DE621A00A181CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0432792F29DE621B00A181CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0432793029DE621B00A181CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0432793229DE621B00A181CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE6008921FA527DBAAEF750 /* Pods-PersonEat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPWP933X75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PersonEat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dldl.lt.PersonEat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0432793329DE621B00A181CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2022E0DEF6C7DD3A5C8CC700 /* Pods-PersonEat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPWP933X75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PersonEat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dldl.lt.PersonEat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0432793529DE621B00A181CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPWP933X75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dldl.lt.PersonEatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonEat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PersonEat";
+			};
+			name = Debug;
+		};
+		0432793629DE621B00A181CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPWP933X75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dldl.lt.PersonEatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonEat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PersonEat";
+			};
+			name = Release;
+		};
+		0432793829DE621B00A181CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPWP933X75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dldl.lt.PersonEatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PersonEat;
+			};
+			name = Debug;
+		};
+		0432793929DE621B00A181CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPWP933X75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dldl.lt.PersonEatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PersonEat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043278FD29DE621800A181CC /* Build configuration list for PBXProject "PersonEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0432792F29DE621B00A181CC /* Debug */,
+				0432793029DE621B00A181CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0432793129DE621B00A181CC /* Build configuration list for PBXNativeTarget "PersonEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0432793229DE621B00A181CC /* Debug */,
+				0432793329DE621B00A181CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0432793429DE621B00A181CC /* Build configuration list for PBXNativeTarget "PersonEatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0432793529DE621B00A181CC /* Debug */,
+				0432793629DE621B00A181CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0432793729DE621B00A181CC /* Build configuration list for PBXNativeTarget "PersonEatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0432793829DE621B00A181CC /* Debug */,
+				0432793929DE621B00A181CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043278FA29DE621800A181CC /* Project object */;
+}
