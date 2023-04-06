@@ -6,11 +6,20 @@
 //
 
 #import "LTPerson.h"
+#import "DLServiceManager.h"
 
 @implementation LTPerson
 
-- (void)lt_breakfastEat:(NSString *)str{
-    NSLog(@"凉亭早饭吃：%@",str);
+-(void)eatBreakfast:(NSString *)foodName{
+    NSLog(@"凉亭早饭吃：%@",foodName);
+}
+
+-(void)writeNewsWithTitle:(NSString *)title{
+    NSLog(@"梁婷写了一篇文章:%@",title);
+    
+    id<EatProtocal> service = [[DLServiceManager sharedManager] createService:@protocol(EatProtocal)];
+    [service createAppWithTitle:@"医企来"];
+    [service breakfastEat:@"鸡蛋"];
 }
 
 @end

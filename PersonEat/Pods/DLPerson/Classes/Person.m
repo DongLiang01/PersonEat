@@ -9,8 +9,12 @@
 
 @implementation Person
 
--(void)breakfastEat:(NSString *)str{
-    NSLog(@"董良早饭一般喜欢吃：%@",str);
+-(void)eatBreakfast:(NSString *)foodName{
+    NSLog(@"董良早上喜欢吃：%@",foodName);
+}
+
+-(void)createAppWithTitle:(NSString *)title{
+    NSLog(@"董良做了一个app：%@",title);
 }
 
 @end

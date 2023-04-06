@@ -6,11 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LTEatProtocol.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LTPerson : NSObject<LTEatProtocol>
+@interface LTPerson : NSObject
+
+-(void)eatBreakfast:(NSString *)foodName;
+-(void)writeNewsWithTitle:(NSString *)title;
 
 @end
 

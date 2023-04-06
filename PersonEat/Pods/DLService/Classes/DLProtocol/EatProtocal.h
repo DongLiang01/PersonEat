@@ -1,5 +1,5 @@
 //
-//  Person.h
+//  EatProtocal.h
 //  sdk_Test
 //
 //  Created by 董良 on 2022/9/25.
@@ -9,9 +9,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Person : NSObject
+@protocol EatProtocal <NSObject>
 
--(void)eatBreakfast:(NSString *)foodName;
+@optional
+
+-(void)breakfastEat:(NSString *)str;
 -(void)createAppWithTitle:(NSString *)title;
 
 @end

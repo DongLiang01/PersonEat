@@ -6,6 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LTEatProtocol.h"
+#import "EatProtocal.h"
+#import "DLLoginProtocol.h"
 
 #define DLServiceSectName "DLServices"
 

@@ -43,7 +43,7 @@ NSArray<NSString *> *DLServiceReadConfiguration(char *sectionName,const struct m
 static void dyld_callback(const struct mach_header *mhp, intptr_t vmaddr_slide) {
     NSArray<NSString *> *services = DLServiceReadConfiguration(DLServiceSectName, mhp);
     //打印很多次
-    NSLog(@"测试执行时机");
+    //NSLog(@"测试执行时机");
     for (NSString *map in services) {
         NSData *jsonData =  [map dataUsingEncoding:NSUTF8StringEncoding];
         NSError *error = nil;
